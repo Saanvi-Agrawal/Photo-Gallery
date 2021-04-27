@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <tittle> Photo Gallery </tittle>
+    <link rel="stylesheet" href="style.Css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#welcome"> Home </a> </li>
+            <li class="links"><a href="#photogallery"> photo gallery </a> </li>
+            <li class="links"><a href="#slidinggallery"> sliding </a> </li>
+        </ul>
+    </center>
+    <div class="container">
+        <section id="welcome">
+            <img src="https://i.gifer.com/XU5m.gif" id="gif">
+        </section>
+        <section id="photogallery">
+            <h2> photo gallery</h2>
+            <div> <img class="photo" src="HUlk.jpg"> <img class="photo" src="Captain.jpg"> </div>
+            <div> <img class="photo" src="thanos.jpg"> <img class="photo" src="iron%20man.jpg"> </div>
+        </section>
+
+        <section id="slidinggallery">
+            <h2 Sliding Gallery></h2>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item">
+
+                        <center> <img class="slider" src="HUlk.jpg">
+                            <div class="carousel-content">
+                                <p>Hulk</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img class="slider" src="Captain.jpg">
+                            <div class="carousel-content">
+                                <p>Captin america</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item active">
+                        <center> <img class="slider" src="thanos.jpg">
+                            <div class="carousel-content">
+                                <p>Thanos</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img class="slider" src="iron%20man.jpg">
+                            <div class="carousel-content">
+                                <p>Iron man </p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+</body>
+
+</html>
